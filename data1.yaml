@@ -1,0 +1,4 @@
+train: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\train\images
+val: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\val\images
+nc: 7
+names: ['stop', 'wait', 'go', 'pedestrian', 'pedestrian_crossing', 'stop_sign', 'obstacle']

@@ -1,0 +1,7 @@
+stop
+wait
+go
+pedestrian
+pedestrian_crossing
+stop_sign
+obstacle
