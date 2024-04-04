@@ -22,7 +22,7 @@ yolo_command = "yolo task=detect mode=val model=runs/detect/train2/weights/best.
 subprocess.run(yolo_command, shell=True)
 
 # Define the YOLO command as a string
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train2/weights/best.pt conf=0.25 source=datasets/test save=True"
+yolo_command = "yolo task=detect mode=predict model=runs?/detect/train2/weights/best.pt conf=0.25 source=datasets/test save=True"
 
 # Execute the YOLO command using subprocess
 subprocess.run(yolo_command, shell=True)
