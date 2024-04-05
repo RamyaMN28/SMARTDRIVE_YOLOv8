@@ -11,7 +11,6 @@ from ultralytics import YOLO
 
 #CUSTOM TRAINING
 
-import subprocess
 yolo_command = "yolo task=detect mode=train model=yolov8s.pt data=data1.yaml epochs=100 imgsz=224 plots=True"
 
 subprocess.run(yolo_command, shell=True)
@@ -29,24 +28,15 @@ yolo_command = "yolo task=detect mode=predict model= runs/detect/train6/weights/
 subprocess.run(yolo_command, shell=True)
 
 #TESTING VIDEO
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=testing/video3.mp4 save=True"
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=testing/vid4.mp4 save=True"
 
 subprocess.run(yolo_command, shell=True)
 
 #TESTING IMAGE
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=testing/img5.png save=True"  
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=testing/img9.png save=True"  
 
 subprocess.run(yolo_command, shell=True)
 
-import torch
-from torchsummary import summary
-from models import YOLOv3  # Assuming you have defined YOLOv8 model in 'models.py'
-
-# Instantiate YOLOv8 model
-model = YOLOv8()
-
-# Print model summary
-summary(model, input_size=(3, 416, 416))
 
 
 ####################################################################
