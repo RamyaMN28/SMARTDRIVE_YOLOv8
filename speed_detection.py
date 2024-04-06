@@ -33,7 +33,7 @@ yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/b
 subprocess.run(yolo_command, shell=True)
 
 #TESTING IMAGE
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=testing/img9.png save=True"  
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train6/weights/best.pt conf=0.25 source=testing/imgg5.png save=True"  
 
 subprocess.run(yolo_command, shell=True)
 

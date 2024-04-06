@@ -5,3 +5,11 @@ pedestrian
 pedestrian_crossing
 stop_sign
 obstacle
+speed20
+speed30
+speed50
+speed60
+speed70
+speed80
+speed100
+speed120
