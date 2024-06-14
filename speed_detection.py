@@ -17,22 +17,22 @@ subprocess.run(yolo_command, shell=True)
 
 #VALIDATION
 
-yolo_command = "yolo task=detect mode=val model=runs/detect/train4/weights/best.pt  data=data1.yaml"
+yolo_command = "yolo task=detect mode=val model=runs/detect/train2/weights/best.pt  data=data1.yaml"
 
 subprocess.run(yolo_command, shell=True)
 
 #TESTING
 
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train4/weights/best.pt conf=0.25 source=datasets/test/images save=True"
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train2/weights/best.pt conf=0.25 source=datasets/test/images save=True"
 
 subprocess.run(yolo_command, shell=True)
 
 #TESTING VIDEO
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train7/weights/best.pt conf=0.25 source=testing/videojaya.mp4 save=True"
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train2/weights/best.pt conf=0.25 source=testing/videojaya.mp4 save=True"
 
 subprocess.run(yolo_command, shell=True)
 
 #TESTING IMAGE
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train4/weights/best.pt conf=0.25 source=testing/imgg1.png save=True"  
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train2/weights/best.pt conf=0.25 source=testing/imgg1.png save=True"  
 
 subprocess.run(yolo_command, shell=True)
