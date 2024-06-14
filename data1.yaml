@@ -1,4 +1,5 @@
 train: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\train\images
-val: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\val\images
-nc: 15
-names: ['stop', 'wait', 'go', 'pedestrian', 'pedestrian_crossing', 'stop_sign', 'obstacle','speed20','speed30','speed50','speed60','speed70','speed80','speed100','speed120']
+val: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\valid\images
+test: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\test\images
+nc: 7
+names: ['BumpyRoad','ConstructionWork','HospitalZone','Obstacle','Pedestrian','SchoolZone','Stop']
