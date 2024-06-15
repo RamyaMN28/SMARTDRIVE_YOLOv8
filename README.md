@@ -81,12 +81,7 @@ Estimates the vehicle's speed using mathematical calculations.
 
 Dynamically adjusts vehicle speed from the intial speed based on real-time analysis to ensure safer driving conditions.
 
-## Screen shots
-
-https://github.com/RamyaMN28/AutoSpeedLimit_YOLOv8/assets/122740354/62ba13c4-693d-442e-8ddc-38a252d8a7bd
-
-
-https://github.com/RamyaMN28/AutoSpeedLimit_YOLOv8/assets/122740354/8cda04e8-3d84-49db-b9f4-30b360f59188
+### Detected Image:
 
 ![Screenshot 2024-06-15 213211](https://github.com/RamyaMN28/AutoSpeedLimit_YOLOv8/assets/122740354/c42332ab-6978-4ed2-8b20-0130a57b1085)
 ![Screenshot 2024-06-15 212806](https://github.com/RamyaMN28/AutoSpeedLimit_YOLOv8/assets/122740354/7a6ffe17-a1df-456b-ae75-55f9ebf746f8)
