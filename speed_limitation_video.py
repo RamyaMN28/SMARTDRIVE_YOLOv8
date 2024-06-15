@@ -121,7 +121,7 @@ def process_video(video_path, model, focal_length, real_width, closest_objects_i
     cv.destroyAllWindows()
 
 
-model_path = 'C:/Users/Ramya M N/OneDrive/Desktop/SmartSpeedGuard_YOLOv8/runs/detect/train5/weights/best.pt'
+model_path = 'runs/detect/train5/weights/best.pt'
 
 
 # Example usage

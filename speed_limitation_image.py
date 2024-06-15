@@ -105,7 +105,7 @@ def object_detector(image, model, focal_length, real_width, closest_objects_info
 
 
 
-model_path = 'C:/Users/Ramya M N/OneDrive/Desktop/SmartSpeedGuard_YOLOv8/runs/detect/train5/weights/best.pt'
+model_path = 'runs/detect/train5/weights/best.pt'
 # Reference object known parameters (you need to measure these)
 KNOWN_DISTANCE = 2.0  # Known distance to reference object in meters
 KNOWN_WIDTH = 0.5  # Known width of reference object in meters
@@ -134,7 +134,7 @@ except Exception as e:
 
 if model:
     # Load and process your reference image
-    ref_image_path = "C:/Users/Ramya M N/OneDrive/Desktop/SmartSpeedGuard_YOLOv8/reference_ima/img2.jpg"
+    ref_image_path = "reference_images/img2.jpg"
     ref_image = cv.imread(ref_image_path)
 
     if ref_image is None:
@@ -151,7 +151,7 @@ if model:
             print(f"Focal Length: {focal_length}")
 
             # Load and process your test image
-            image_path = "datasets/test/images/obbar6-resized_jpg.rf.de17ef49844908089bd086eee4eee96c.jpg"
+            image_path = "testing/img7.png"
             image = cv.imread(image_path)
 
             if image is None:

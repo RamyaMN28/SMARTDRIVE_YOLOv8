@@ -1,5 +1,5 @@
-train: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\train\images
-val: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\valid\images
-test: C:\Users\Ramya M N\OneDrive\Desktop\SmartSpeedGuard_YOLOv8\datasets\test\images
+train: datasets\train\images
+val: datasets\valid\images
+test: datasets\test
 nc: 7
 names: ['BumpyRoad','ConstructionWork','HospitalZone','Obstacle','Pedestrian','SchoolZone','Stop']

@@ -28,7 +28,7 @@ yolo_command = "yolo task=detect mode=predict model=runs/detect/train5/weights/b
 subprocess.run(yolo_command, shell=True)
 
 #TESTING VIDEO
-yolo_command = "yolo task=detect mode=predict model=runs/detect/train5/weights/best.pt conf=0.25 source=testing/videojaya.mp4 save=True"
+yolo_command = "yolo task=detect mode=predict model=runs/detect/train5/weights/best.pt conf=0.25 source=testing/hospital.mp4 save=True"
 
 subprocess.run(yolo_command, shell=True)
 
