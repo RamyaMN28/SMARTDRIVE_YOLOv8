@@ -93,8 +93,7 @@ Dynamically adjusts vehicle speed from the intial speed based on real-time analy
 #### Video 1:
 https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/a3ff4bc4-f272-49e8-9e0b-0899cb9ce561
 #### Video 2:
-https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/a5d77ac9-6868-4da7-8dba-f1982caa3587
-
+https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/434ecb2f-5895-41d9-b5c7-b8141c481783
 
 ## Authors
 
