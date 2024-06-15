@@ -11,7 +11,7 @@ from ultralytics import YOLO
 
 #CUSTOM TRAINING
 
-yolo_command = "yolo task=detect mode=train model=yolov8s.pt data=data1.yaml epochs=25 imgsz=416 plots=True"
+yolo_command = "yolo task=detect mode=train model=yolov8s.pt data=data1.yaml epochs=80 imgsz=416 plots=True"
 
 subprocess.run(yolo_command, shell=True)
 
