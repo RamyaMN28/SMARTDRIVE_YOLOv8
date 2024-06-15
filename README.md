@@ -2,7 +2,7 @@
 # README.md
 
 ### Title:
-**ROADGUARD_YOLOv8**
+**SMARTDRIVE_YOLOv8**
 
 ### Description:
 ROADGUARD_YOLOv8 is an advanced AI-driven system designed to enhance road safety by dynamically adjusting vehicle speed based on real-time detection of critical road conditions. Utilizing YOLOv8 object detection, this model identifies specific classes such as Bumpy Roads, Construction Work, Hospital Zones, Obstacles(like Blocked roads, Fallen trees, Potholes, Car, Bike,...), Pedestrians, School Zones, and Stop signs. 
@@ -81,6 +81,11 @@ Estimates the vehicle's speed using mathematical calculations.
 
 Dynamically adjusts vehicle speed from the intial speed based on real-time analysis to ensure safer driving conditions.
 
+### Results:
+
+## Detected Images:
+![Screenshot 2024-06-15 212806](https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/dfc84640-4b35-4496-8dae-8c439e1787d1)
+![Screenshot 2024-06-15 213211](https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/8443fe43-feb0-4872-a6bc-46cbcfbf5911)
 
 ## Authors
 
