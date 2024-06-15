@@ -94,7 +94,7 @@ https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/434ecb2f-5895-41
 #### Video 2:
 https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/75e00aa0-9b5e-4c3e-8a4f-9b46c67e0a0b
 
-## Authors
+## Author
 
 - [@Ramya M N ](https://github.com/RamyaMN28/)
 
