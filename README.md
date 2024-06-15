@@ -18,8 +18,6 @@ Usage
 
 Results
 
-Authors
-
 ## Installation
 
 #### Prerequisites
@@ -96,4 +94,5 @@ https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/75e00aa0-9b5e-4c
 ## Author
 
 - [@Ramya M N ](https://github.com/RamyaMN28/)
+
 
