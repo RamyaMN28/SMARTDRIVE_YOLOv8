@@ -1,10 +1,11 @@
 
 # README.md
+The project is available for viewing in the samplebranch.
 
-### Title:
+### Title
 **SMARTDRIVE_YOLOv8**
 
-### Description:
+### Description
 SMARTDRIVE_YOLOv8 is an advanced AI-driven system designed to enhance road safety by dynamically adjusting vehicle speed based on real-time detection of critical road conditions. Utilizing YOLOv8 object detection, this model identifies specific classes such as Bumpy Roads, Construction Work, Hospital Zones, Obstacles(like Blocked roads, Fallen trees, Potholes, Car, Bike,...), Pedestrians, School Zones, and Stop signs. 
 
 Through the use of bounding box coordinates to precisely calculate the distance to each object detected and mathematical computations to estimate speed, the model guarantees timely and appropriate speed adjustments, thereby promoting safer driving environments. The system allows for the input of both images and videos and provides thorough reporting and analysis for better traffic control and speed limit observance.
@@ -12,20 +13,17 @@ Through the use of bounding box coordinates to precisely calculate the distance 
 
 Installation 
 
+Deployment
+
 Usage
 
-Features
+Results
 
-Technologies Used
+Authors
 
-Contributing
-
-License
-
-Contact
 ## Installation
 
-#### Prerequisites:
+#### Prerequisites
 Python 3.7 or higher
 
 pip (Python package installer)
@@ -42,7 +40,7 @@ pip (Python package installer)
 
 ```
 
-#### Download YOLOv8 Weights:
+#### Download YOLOv8 Weights
 
 Download the YOLOv8 weights from the official repository or link provided in the documentation.
 
@@ -59,9 +57,9 @@ python speed_limitation_image.py
 python speed_limitation_video.py
 
 ```
-## Usage: 
+## Usage
 
-#### Input Source :
+#### Input Source:
 
 The system supports both image and video inputs for comprehensive analysis.
 
@@ -81,12 +79,23 @@ Estimates the vehicle's speed using mathematical calculations.
 
 Dynamically adjusts vehicle speed from the intial speed based on real-time analysis to ensure safer driving conditions.
 
-### Detected Image:
+## Results
 
-![Screenshot 2024-06-15 213211](https://github.com/RamyaMN28/AutoSpeedLimit_YOLOv8/assets/122740354/c42332ab-6978-4ed2-8b20-0130a57b1085)
-![Screenshot 2024-06-15 212806](https://github.com/RamyaMN28/AutoSpeedLimit_YOLOv8/assets/122740354/7a6ffe17-a1df-456b-ae75-55f9ebf746f8)
+### Detected Images:
+#### Image 1:
+![Screenshot 2024-06-15 212806](https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/dfc84640-4b35-4496-8dae-8c439e1787d1)
+#### Image 2:
+![Screenshot 2024-06-15 213211](https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/8443fe43-feb0-4872-a6bc-46cbcfbf5911)
+
+### Detected Videos:
+#### Video 1:
+https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/434ecb2f-5895-41d9-b5c7-b8141c481783
+
+#### Video 2:
+https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/75e00aa0-9b5e-4c3e-8a4f-9b46c67e0a0b
 
 ## Authors
 
 - [@Ramya M N ](https://github.com/RamyaMN28/)
+
 
