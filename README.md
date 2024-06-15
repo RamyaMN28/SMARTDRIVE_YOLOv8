@@ -1,6 +1,6 @@
 
 # README.md
-The project is available for viewing in the samplebranch.
+The project is available in the samplebranch.
 
 ### Title
 **SMARTDRIVE_YOLOv8**
