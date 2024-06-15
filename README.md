@@ -81,11 +81,20 @@ Estimates the vehicle's speed using mathematical calculations.
 
 Dynamically adjusts vehicle speed from the intial speed based on real-time analysis to ensure safer driving conditions.
 
-### Results:
+## Results:
 
 ## Detected Images:
+#### Image 1:
 ![Screenshot 2024-06-15 212806](https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/dfc84640-4b35-4496-8dae-8c439e1787d1)
+#### Image 2:
 ![Screenshot 2024-06-15 213211](https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/8443fe43-feb0-4872-a6bc-46cbcfbf5911)
+
+## Detected Videos:
+#### Video 1:
+https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/a3ff4bc4-f272-49e8-9e0b-0899cb9ce561
+#### Video 2:
+https://github.com/RamyaMN28/SMARTDRIVE_YOLOv8/assets/122740354/a5d77ac9-6868-4da7-8dba-f1982caa3587
+
 
 ## Authors
 
