@@ -19,8 +19,6 @@ Usage
 
 Results
 
-Authors
-
 ## Installation
 
 #### Prerequisites
